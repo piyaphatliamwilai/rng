@@ -1,8 +1,8 @@
 import random
 
-minimum = input("Give minimum number of random number generation you want -> ")
-maximum = input("Give maximum number of random number generation you want -> ")
+minimum = int(input("giv minimum -> "))
+maximum = int(input("giv maximum -> "))
 
-rng = random.random(minimum, maximum)
+rng = random.randint(minimum, maximum)
 
 print(rng)
